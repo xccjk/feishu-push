@@ -11,14 +11,14 @@ const sendMsgToFeishu = async ({ msgType = 'text', token = '', content }) => {
     }
   }
   if (msgType === 'post') {
-    params = {
+    params = JSON.stringify({
       msg_type: msgType,
       content: {
         post: {
           zh_cn: content || {}
         }
       }
-    }
+    })
   }
 
   return await axios.post(
