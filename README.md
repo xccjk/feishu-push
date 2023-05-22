@@ -69,3 +69,7 @@ sendMsgToFeishu({
   }  
 })
 ```
+
+## shell脚本实现飞书群通知
+
+[shell实现飞书群通知](https://github.com/xccjk/feishu-push/issues/1)
