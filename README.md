@@ -16,31 +16,6 @@ sendMsgToFeishu({
   msgType: 'text', // 消息推送类型，支持text和post，默认text
   token: 'xxx',
   content: 'content为包含关键字的推送信息'   
-  /*
-    type: text
-    
-
-    type: post
-    content = {
-      "title": "项目更新通知",
-      "content": [
-        [{
-            "tag": "text",
-            "text": "xxx"
-          },
-          {
-            "tag": "a",
-            "text": "请查看",
-            "href": "xxx"
-          },
-          {
-            "tag": "at",
-            "user_id": "xxx"
-          }
-        ]
-      ]
-    }
-  */
 })
 
 
